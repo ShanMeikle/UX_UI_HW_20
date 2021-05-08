@@ -190,7 +190,7 @@ footer li {
 }
 
 #workCardImg .placeholder {
- height: 100%;
+ width: 50%;
 }
 #workCard {
     align-items: center;
