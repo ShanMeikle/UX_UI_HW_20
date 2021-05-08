@@ -1,0 +1,277 @@
+body{
+    text-align: center; 
+    margin: auto 120px;
+}
+ h1 {
+    font-size: 50px;
+ }
+ h2 {
+     font-size: 30px;
+ }
+p {
+    font-size: 20px;
+}
+
+
+/*Nav Bar, Logo, summary and img*/
+.inline-block{
+    display: inline-block;
+    vertical-align: center;
+    padding: 20px;
+}
+
+.logo{
+    padding: 1%;
+}
+
+nav { 
+    width: 73%;
+    padding: 1%;
+ }
+ nav li{
+     padding-bottom: 0px;
+     padding-top: 0px; 
+     font-size: 20px;
+ }
+
+ul {
+    width :50%;
+    margin-left: auto;
+}
+
+.heroImg{
+    /*height: 600px;*/
+    padding: 25px;
+    margin-bottom: 10vh;  
+    background-color: #383F48;
+   
+}
+
+#wrapper a{
+    background-color: #E1CEA0;
+    color: #27273F;
+    text-decoration: none;
+    padding: 10px 26px;
+    background: #E1CEA0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: right;
+}
+#wrapper a:hover {
+    letter-spacing: 3px;
+}
+
+.content h1, p{
+    color: #E1CEA0;
+    text-align: left;
+    
+}
+
+.content h1 {
+    font-size: 50px;
+    margin: 0px;
+    
+}
+
+.content p {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.content img{
+    grid-area: img;
+    height: 100%;
+}
+/*#wrapper{
+    grid-area: wrapper;
+}*/
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-template-areas: 
+    'img' 'wrapper';
+   
+}
+
+.hidden {
+    display: none;
+}
+
+
+button, .btn {
+    background-color: #556956; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+
+button:hover, .btn:hover {
+    background-color: #f0ebee; 
+    color: rgb(15, 15, 15);
+  }
+
+
+.btn {
+    margin-top: 5%;
+}
+/*Footer CSS*/
+
+footer{
+    background-color:#373738 ;
+    padding: 3px;
+    text-align: center;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer li {
+    color: white;
+    font-size: 20px;
+} 
+
+/*Skills Section CSS*/
+
+#skillsCard .placeholder {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#skillsCard p {
+    color: black;
+    text-align: center;
+}
+
+
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    margin: auto 120px;
+}
+
+.flexContainer div{
+    width: 33%;
+    padding: 5px;
+}
+
+/*My Work Section CSS*/
+.myWork {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'npoImg npo'
+    'govImg gov'
+    'travelImg travel';
+    margin: auto 120px;
+}
+
+#workCard p {
+    color: black;
+    text-align: center;
+}
+
+#workCardImg .placeholder {
+ height: 100%;
+}
+#workCard {
+    align-items: center;
+
+}
+.npo {
+    grid-area: npo;
+    padding: 20px;
+}
+.npoImg {
+    grid-area: npoImg;
+    padding: 20px;
+}
+.gov {
+    grid-area: gov;
+    padding: 20px;
+}
+.govImg {
+    grid-area: govImg;
+    padding: 20px;
+}
+.travel {
+    grid-area: travel;
+    padding: 20px;
+}
+.travelImg {
+    grid-area: travelImg;
+    padding: 20px;
+}
+
+
+
+
+/*Responsive for mobile*/
+@media (max-width: 600px){
+    body {
+        margin: auto 0;
+    }
+    .content {
+        display: inline-block;
+    }
+    .flexContainer {
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .flexContainer div{
+        width: 100%;
+    }
+
+    .workGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'npoImg npo'
+        'govImg gov'
+        'travelImg travel';
+        
+        margin: auto;
+    }
+
+
+ /*NAV and Header*/
+    .inline-block{
+        display: inline-block;
+        vertical-align: center;
+        padding: 20px;
+    }
+    
+    .logo{
+        padding: 1%;
+    }
+    
+    nav { 
+        width: 100%;
+        padding: 1%;
+     }
+    
+    ul {
+        width :100%;
+        padding: 0;
+    }
+    
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>ShanTay Meikle Portfolio</title>
+    </head>
+    <body>
+        <header class="navigation">
+            <div class="inline-block logo">
+                <img src="images\logo.png" alt="ShanTay Meikle Logo" height="150px">
+            </div>
+            <nav class="inline-block">
+                <ul>
+                    <li class="inline-block">About</li>
+                    <li class="inline-block">Skills</li>
+                    <li class="inline-block">Work</li>
+                    <li class="inline-block">Contact</li>
+                </ul>
+            </nav>
+        </header>
+            
+        <section class= "heroImg">
+                <div class="content">
+                    <img src="images\Headshot (2).jpg" alt="ShanTay Meikle Headshot">
+                    <div id="wrapper">
+                        <h1>
+                            Hello, You!
+                        </h1>
+                        <p>
+                            UI Designer with a talent for details, flow, and design. 
+                            Passionate about user interface design with the belief 
+                            that a modern UI will help boost retention, loyalty, 
+                            and a positive user experience. 
+                        </p>
+                        <div id="extendedIntro" class="hidden">
+                            <p>
+                                Skills include wireframing and prototyping in Figma, 
+                                and following the UI Design process. Life is too precious, 
+                                and short, for subpar experiences. That is why I strive to 
+                                create content that will improve the lives of the user.
+                                 Users who feel better after their experience will continue 
+                                 to use the product and recommend it to others. 
+                            </p>
+                        </div>
+                        <a href="javascript:void();" class="readmore-btn" id="introReadMore-btn">Read More</a>
+                        <a href="javascript:void();" class="readless-btn hidden" id="introReadLess-btn">Read Less</a>
+
+                    </div>
+
+                </div>
+        </section>
+
+<!--  My UX Skills section coded using CSS flex -->
+        <section class= "uxSkills">
+            
+                <h1>
+                    My UI Skills
+                </h1>
+                <div class="flexContainer">
+                    <div id="skillsCard">
+                        <img class="placeholder" src="images\Placeholder.svg" alt="Placeholder">
+                        <h2>Wireframing</h2>
+                        <p>Information about wireframing</p>
+                    </div>
+
+                    <div id="skillsCard">
+                        <img class="placeholder" src="images\Placeholder.svg" alt="Placeholder">
+                        <h2>Prototyping</h2>
+                        <p>Information about prototyping</p>
+                    </div>
+
+                    <div id="skillsCard">
+                        <img class="placeholder" src="images\Placeholder.svg" alt="Placeholder">
+                        <h2>UI Design Process</h2>
+                        <p>Information about design process</p>
+                    </div>
+                </div>
+        </section>
+
+<!-- My Work Section Constructed using CSS Grid -->
+        <section class= myWork>
+            
+            <h1>
+                My Work
+            </h1>
+            <div class="workGrid">
+                <div class="npoImg" id="workCardImg">
+                    <img class="placeholder" src="images\Placeholder.svg" alt="Placeholder">
+                </div>
+                <div class="npo" id="workCard">
+                    <h2>NPO RWD Redesign</h2>
+                    <p>Information about the redesign</p>
+                    <button class="caseStudyButton">See more</button>
+                </div>
+
+                <div class="govImg" id="workCardImg">
+                    <img class="placeholder" src="images\Placeholder.svg" alt="Placeholder">
+                </div>
+                <div class="gov" id="workCard">
+                    <h2>Government webside <br> RWD Redesign</h2>
+                    <p>Information about the redesign</p>
+                    <button class="caseStudyButton">See more</button>
+                </div>
+
+                <div class="travelImg" id="workCardImg">
+                    <img class="placeholder" src="images\Placeholder.svg" alt="Placeholder">
+                </div>
+                <div class="travel" id="workCard">
+                    <h2>Group Travel App</h2>
+                    <p>Information about Cahoots</p>
+                    <button class="caseStudyButton">See more</button>
+                </div>
+            </div>
+            <div>
+                <button class="btn">View All Projects</button> 
+            </div>
+        </section>
+
+
+        <footer>
+            <ul> 
+                <li class="inline-block">About</li>
+                <li class="inline-block">Skills</li>
+                <li class="inline-block">Work</li>
+                <li class="inline-block">Contact</li>
+            </ul>
+        </footer>
+    </body>
+    <script src="js/index.js"></script>
+</html>
