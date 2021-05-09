@@ -1,0 +1,159 @@
+body {
+    font-family: 'merriweather';
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold; 
+    color: #31394D;
+}
+
+h2 {
+    text-align: center;
+    color: #AD2029;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.breadcrumb {
+    padding-left: 20px;
+}
+.breadcrumb a{
+    color: #AD2029;
+    text-decoration: none;
+}
+#logoWrapper {
+    padding: 10%;
+}
+
+#logoWrapper img {
+    width: 100%;
+  
+}
+/*.flex-column {
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}*/
+
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20vw; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #1F2431; /* Navy Blue */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav .nav-link {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-align: center;
+  }
+  
+/* When you mouse over the navigation links, change their color */
+.sidenav .nav-link:hover {
+color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+margin-left: calc(20vw + 138px); /* Same as the width of the sidebar */
+margin-right: 138px;
+padding: 0px 10px;
+}
+
+#utilities {
+    text-align: center;
+    color: #787379;
+    font-size: 16px;
+}
+
+#quote {
+    color: #AD2029;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.cardHeader {
+    background-color: #1F2431;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+.userTesting {
+    padding-bottom: 5%;
+}
+
+#testing {
+    text-align: center;
+    color: #31394D;
+    font-size: 20px;
+}
+
+#statementDescription {
+    color: #787379;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    border: solid 1px #1F2431;
+}
+
+.card {
+    width: 30%;
+    padding: 0px;
+    border: solid 1px #1F2431;
+}
+.card-header {
+    background-color: #1F2431;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.card-text {
+    color: #787379;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    
+}
+
+
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

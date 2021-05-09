@@ -39,6 +39,8 @@ ul {
     margin-left: auto;
 }
 
+
+/* Hero Section */
 .heroImg{
     /*height: 600px;*/
     padding: 25px;
@@ -83,9 +85,6 @@ ul {
     grid-area: img;
     height: 100%;
 }
-/*#wrapper{
-    grid-area: wrapper;
-}*/
 
 .content{
     width: 80%;
@@ -178,9 +177,9 @@ footer li {
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: 
-    'npoImg npo'
     'govImg gov'
-    'travelImg travel';
+    'travelImg travel'
+    'npoImg npo';
     margin: auto 120px;
 }
 
